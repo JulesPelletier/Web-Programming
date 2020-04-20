@@ -1,0 +1,224 @@
+/*
+    Index.html
+*/
+
+.basic-style
+{
+    margin: 20px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header
+{
+    margin: 20px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    background-color: gainsboro;
+}
+
+.quick-description
+{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.website-title
+{
+    padding: 2%;
+    background-color: gainsboro;
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-me
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.picture, .my-description, .more-info
+{
+    padding: 30px;
+    max-width: 100%;
+}
+
+.more-info
+{
+    margin: auto;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#profile-picture
+{
+    width: 100%;
+}
+
+.page-links
+{
+    position: relative;
+    width:100%;
+    margin: 0px;
+    height:100px;
+}
+
+.links
+{
+    margin: auto;
+    width: 19%;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+/*
+    Studies.hmtl
+*/
+.studies
+{
+    margin:20px;
+}
+.cursus
+{
+    margin:20px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px dashed black;
+}
+
+h2, thead, th, td
+{
+    text-align: center;
+}
+
+th
+{
+    background-color: gainsboro;
+    color: black;
+}
+td
+{
+    padding: 10px;
+    width: 15%;
+}
+
+tr
+{
+    border: 1px solid gray;
+}
+
+.first-col
+{
+    column-width: 50px;
+}
+/*
+    sports.html
+*/
+
+.sports
+{
+    margin: 40px;
+}
+
+.sports-pictures
+{
+    display: flex;
+    flex-wrap: wrap;;
+}
+
+.pics-sq, .pics
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 30px;
+}
+
+.pics, .pics-sq
+{
+    width: 45%
+}
+
+/*
+    trips.html
+*/
+
+.desc-trips
+{
+    padding: 20px;
+}
+
+.container
+{
+    grid-area: auto / auto / auto;
+    grid-row: auto;
+}
+
+.row, .col-sm-4, .container
+{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.col-sm-4
+{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.img
+{
+    width: 400px;
+    height: 90%;
+}
+
+.page-number
+{
+    text-align: center;
+}
+
+/*
+    hobbies.html
+*/
+
+.song
+{
+    margin: auto;
+    padding-top: 40px;
+
+}
+
+.text
+{
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-wrap: break-word;
+}
+
+@media print
+{
+    .song
+    {
+        display: none;
+    }
+}
+
+@media print
+{
+    .page-number
+    {
+        display: none;
+    }
+}
