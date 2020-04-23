@@ -1,0 +1,27 @@
+{% extends "layout1.html" %}
+
+{% block heading %}
+    Register Page
+{% endblock heading %}
+
+{% block body %}
+    <form class="form-register">
+        <div>
+            <label for="first-name"> Enter your First Name :</label>
+            <input id="first-name" name="first-name" type="text" placeholder="First Name"> <br>
+            <label for="last-name"> Enter your Last Name :</label>
+            <input id="last-name" name="last-name" type="text" placeholder="Last Name"> <br>
+            <label for="email"> Enter your E-mail :</label>
+            <input id="email" name="email" type="email" placeholder="E-mail address"> <br>
+            <label for="birthdate">Enter your bitrh date :</label>
+            <input id="birthdate" name="birthdate" type="date"> <br>
+            <label for="pwd-1"> Type in password :</label>
+            <input id="pwd1" name="pwd-1" type="password" placeholder="password"> <br>
+            <label for="pwd-2"> Confirm your password :</label>
+            <input id="pwd2" name="pwd-2" type="password" placeholder="password"> <br>
+        </div>
+
+        <a href="index"><button type="button"> Submit </button></a>
+    </form>
+
+{% endblock body %}

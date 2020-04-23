@@ -1,0 +1,38 @@
+/*
+ALL
+*/
+
+.layout1
+{
+    padding: 100px;
+    margin: 200px;
+}
+
+/*
+Index
+*/
+
+.index
+{
+    text-align: center;
+}
+
+#btn-register, #btn-log-in
+{
+    width: 400px;
+    height: 60px;
+}
+
+.btn-container
+{
+    text-align: center;
+}
+
+/*
+Register Form
+*/
+
+.form-register
+{
+    text-align: center;
+}
